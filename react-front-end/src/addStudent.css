@@ -1,0 +1,52 @@
+.container {
+    margin-top: 70px;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn-success {
+    background: linear-gradient(to right, #2ecc71, #27ae60);
+    border: none;
+}
+
+.btn-warning {
+    background: linear-gradient(to right, #f39c12, #e67e22);
+    border: none;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #3498db;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+    color: #7f8c8d;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+label {
+    color: #2c3e50;
+}
+
+body {
+    background-color: #ecf0f1;
+}
